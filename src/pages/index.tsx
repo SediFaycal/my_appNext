@@ -1,9 +1,6 @@
 import Head from 'next/head'
-// import CallToActionWithAnnotation from '@/components/body'
-// import SmallWithSocial from '@/components/footer'
-// import WithBackgroundImage from '@/components/body'
-// import LargeWithLogoLeft from '@/components/footer'
 import SimpleSidebar from '@/components/sidebar'
+import Simple from '@/components/navbar'
 
 
 export default function Home() {
@@ -16,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <SimpleSidebar/>
+        <Simple/> 
       </main>
     </>
   )
